@@ -33,9 +33,9 @@ module Pessimize
       [
         [[], :on_comma, ","],
         [[], :on_sp, " "],
-        [[], :on_tstring_beg, "\""],
+        [[], :on_tstring_beg, "'"],
         [[], :on_tstring_content, version],
-        [[], :on_tstring_end, "\""]
+        [[], :on_tstring_end, "'"]
       ]
     end
 
